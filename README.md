@@ -13,7 +13,7 @@ You can access the deployed app here:
 ## 🎥 App Demo
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="App demo in action" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
+  <img src="./assets/demo.mp4" alt="App demo in action" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
 </p>
 
 <p align="center">
