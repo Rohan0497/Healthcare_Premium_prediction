@@ -12,7 +12,8 @@ You can access the deployed app here:
 
 ## 🎥 App Demo
 
-![App Demo](./assets/demo.gif)
+[![Watch Demo](./assets/healthcare_thumbnail_light_v2.png)](./assets/demo.gif)
+
 
 
 ---
