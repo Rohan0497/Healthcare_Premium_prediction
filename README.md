@@ -12,7 +12,7 @@ You can access the deployed app here:
 
 ## 🎥 App Demo
 
-[![Watch Demo](./assets/healthcare_thumbnail_light_v2.png)](./assets/demo.gif)
+![Healthcare Premium App Demo](./assets/demo.gif)
 
 
 
