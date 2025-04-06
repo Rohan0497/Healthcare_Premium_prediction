@@ -12,17 +12,10 @@ You can access the deployed app here:
 
 ## 🎥 App Demo
 
-<p align="center">
-  <img src="./assets/demo.mp4" alt="App demo in action" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
-</p>
-
-<p align="center">
-  <a href="https://mlhealthcare-premium-prediction.streamlit.app" target="_blank">
-    <img src="./assets/healthcare_project_thumbnail_light.png" alt="Click to launch app" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
-  </a>
-  <br/>
-  <em>▶ Click above to explore the full interactive app</em>
-</p>
+<video width="100%" controls>
+  <source src="./assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -62,18 +55,23 @@ Insurers are increasingly shifting toward personalized, data-driven pricing. Thi
 
 ## 📊 Visual Insights
 
-| Screenshot | Description |
-|-----------|-------------|
-| ![Viz 1](./assets/healthcare_viz_4.png) | Medical history vs. premium — shows the cost impact of chronic conditions |
-| ![Viz 2](./assets/healthcare_viz_9.png) | XGBoost feature importance plot highlighting key predictors |
-| ![Viz 3](./assets/healthcare_viz_2.png) | BMI category vs. cost — highlights obesity-linked premium hikes |
-| ![Viz 4](./assets/healthcare_viz_6.png) | Age and premium distribution across both age segments |
-| ![Viz 5](./assets/healthcare_viz_3.png) | Correlation matrix of encoded input features |
-| ![Viz 6](./assets/healthcare_viz_8.png) | Histogram of predicted premium clusters |
-| ![Viz 7](./assets/healthcare_viz_5.png) | Risk profile by smoking and alcohol use |
-| ![Viz 8](./assets/healthcare_viz_10.png) | Model performance metrics for both age-based models |
+Below are key insights and visualizations derived during model development. These plots support feature selection, model explainability, and validation across age segments.
+
+| 📸 Screenshot | 🔍 Description |
+|--------------|----------------|
+| ![Viz1](./assets/healthcare_viz_1.png) | Feature distributions for numeric fields (e.g., age, income, premium) show skew, concentration and transformation needs. |
+| ![Viz2](./assets/healthcare_viz_2.png) | Scatter plots relate inputs (age, income, dependents, risk) with premium — key to understanding nonlinear dependencies. |
+| ![Viz3](./assets/healthcare_viz_3.png) | Heatmap showing correlations between all encoded features, including demographics, habits and premium levels. |
+| ![Viz4](./assets/healthcare_viz_4.png) | Linear regression feature importance — shows insurance plan, risk, and obesity as strongest premium drivers. |
+| ![Viz5](./assets/healthcare_viz_5.png) | Residual distribution plot visualizes how close predictions are to actual premium values — model is well calibrated. |
+| ![Viz6](./assets/healthcare_viz_6.png) | Histogram + KDE plots of top features (BMI, age, premium) confirm expected distributions and model readiness. |
+| ![Viz7](./assets/healthcare_viz_7.png) | Scatter plots for young age group show strong premium ties to age, risk and income even in early adulthood. |
+| ![Viz8](./assets/healthcare_viz_8.png) | Correlation matrix for young segment validates distinct patterns compared to older group (e.g., income vs. premium). |
+| ![Viz9](./assets/healthcare_viz_9.png) | Feature coefficients in linear regression model (for young segment) reveal age and risk as dominant cost factors. |
+| ![Viz10](./assets/healthcare_viz_10.png) | Residual plot (young group) shows mild underprediction for mid-risk clients — supports model refinement. |
 
 ---
+
 
 
 ## File Structure
