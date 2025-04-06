@@ -12,10 +12,11 @@ You can access the deployed app here:
 
 ## 🎥 App Demo
 
-<video width="100%" controls>
-  <source src="./assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+> ▶️ Click the image below to watch the demo video.
+
+[![Watch the Demo](./assets/healthcare_thumbnail_light_v2.png)](./assets/demo.mp4)
+
 
 ---
 
