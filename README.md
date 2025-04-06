@@ -31,7 +31,7 @@ You can access the deployed app here:
 │   ├── ml_premium_prediction_young.ipynb
 │   ├── ml_premium_prediction_young_with_gr.ipynb
 ```
-
+ 
 ## Installation
 1. Clone the repository:
     ```bash
